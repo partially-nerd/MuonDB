@@ -1,0 +1,44 @@
+{
+    "sections": {
+        "rose": {
+            "classTeacher": "Puskar Adhikari sir",
+            "classPrefect": "Rehan Mainali",
+            "students": [
+                {
+                    "name": "Ram Shah",
+                    "age": 14
+                },
+                {
+                    "name": "Ramesh Chand",
+                    "age": 15
+                },
+                {
+                    "name": "Sakar Shrestha",
+                    "age": 15
+                }
+            ]
+        },
+        "ruby": {
+            "classTeacher": "Bashu Wagle Sir",
+            "classPrefect": "Bishal Xetri",
+            "students": [
+                {
+                    "name": "Rijwal Xetri",
+                    "age": 16
+                },
+                {
+                    "name": "Chhenbi Hangrai",
+                    "age": 16
+                },
+                {
+                    "name": "Aaron Shrestha",
+                    "age": 14
+                }
+            ]
+        }
+    },
+    "incharges": [
+        "Urmila Gautam Madam",
+        "Nandita Rana Madam"
+    ]
+}

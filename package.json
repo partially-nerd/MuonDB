@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "electron": "^25.4.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "name": "idb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm i",
+    "start_windows": ".\\node_modules\\.bin\\electron .",
+    "start_unix": "./node_modules/.bin/electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

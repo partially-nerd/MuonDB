@@ -1,0 +1,44 @@
+{
+    "sections": {
+        "rose": {
+            "classTeacher": "Deepak Khanal Sir",
+            "classPrefect": "Pratham Dahal",
+            "students": [
+                {
+                    "name": "Aaditya Singh",
+                    "age": 14
+                },
+                {
+                    "name": "Aansha Poudel",
+                    "age": "15 nerd"
+                },
+                {
+                    "name": "Amulya Ghale",
+                    "age": 15
+                }
+            ]
+        },
+        "ruby": {
+            "classTeacher": "Bashu Wagle Sir",
+            "classPrefect": "Madhav Singh Kunwar",
+            "students": [
+                {
+                    "name": "Aron Chand",
+                    "age": 16
+                },
+                {
+                    "name": "Adhik Dhakal",
+                    "age": 16
+                },
+                {
+                    "name": "Anubhav Thapaliya",
+                    "age": 16
+                }
+            ]
+        }
+    },
+    "incharges": [
+        "Urmila Gautam Madam",
+        "Nandita Rana Madam"
+    ]
+}

@@ -1,0 +1,70 @@
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-corner {
+    height: 10px;
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(src/mirage.png) fixed center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.setup-screen {
+    display: grid;
+    grid-template-columns: 40px auto;
+
+    height: 80vh;
+    width: 60vw;
+    border-radius: 8px;
+
+    box-shadow:
+        0px 0px 20px black,
+        0px 0px 30px black;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.setup-screen .titlebar {
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    & .titlebar-btns {
+        height: 20px;
+        width: 20px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        transition: 0.3s opacity;
+    }
+
+    & .titlebar-btns:hover {
+        opacity: 0.7;
+    }
+
+    & .close {
+        background-color: rgb(253, 73, 41);
+    }
+
+    & .minimize {
+        background-color: rgb(255, 220, 104);
+    }
+
+    & .maximize {
+        background-color: rgb(144, 255, 100);
+    }
+}

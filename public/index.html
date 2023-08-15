@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Initializing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js" defer></script>
+</head>
+<body onload="fillRecents()">
+    <div class="setup-screen">
+        <div class="titlebar">
+            <button class="titlebar-btns close" onclick="history.back()"></button>
+            <button class="titlebar-btns minimize"></button>
+            <button class="titlebar-btns maximize"></button>
+        </div>
+        <div class="input">
+            <div class="recents">
+                <span class="heading">RECENTS</span><br><br><br>
+                <div class="recent-cards">
+                    <button class="card" onclick="submit(`${this.getAttribute('dir')}`)" style="--label: 'students.d'"></button>
+                    <button class="card" onclick="submit(`${this.getAttribute('dir')}`)" style="--label: 'placeholder.d'"></button>
+                    <button class="card" onclick="submit(`${this.getAttribute('dir')}`)" style="--label: 'placeholder.d'"></button>
+                    <button class="card" onclick="submit(`${this.getAttribute('dir')}`)" style="--label: 'placeholder.d'"></button>
+                </div>
+            </div>
+            <div class="open-folder">
+                <span class="heading">EXPLORER</span><br><br><br>
+                <button class="dir-input" onclick="window.postMessage({type: 'select-dirs'})">Select Directory</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
