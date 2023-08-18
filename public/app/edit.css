@@ -85,7 +85,7 @@ body {
     padding: 0;
 }
 
-.editor, .editor-behind{
+.editor, .editor-behind, .editor-like{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -116,4 +116,28 @@ code{
 
 svg path {
     fill: white;
+}
+
+tr {
+    height: 50px;
+
+    & td{
+        height: 100%;
+        min-width: none;
+
+        & input {
+            height: 100%;
+            min-width: none;
+
+            background-color: transparent;
+            color: white;
+            border: 0px;
+            outline: none;
+            border-radius: 0px;
+        }
+    }
+
+    &:first-child td{
+        border-bottom: 2px solid white;
+    }
 }
